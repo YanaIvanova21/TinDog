@@ -63,15 +63,22 @@ p {
 
 /* Title image */
 
+.title-image-position {
+    position: relative;
+}
+
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* Features */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -127,5 +134,9 @@ p {
 
 .pricing-card {
     padding: 3% 2%;
+}
 
+.fake-paragraph {
+    height: 40px;
+    color: #fff;
 }
